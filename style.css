@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav{
+    padding: 20px;
+}
+.nav-left{
+    float: left;
+    font-size: 13px;
+}
+.nav-left a{
+    margin-left: 10px;
+    color: #000;
+    opacity: 0.75;
+}
+.nav-right{
+    display: flex;
+    float: right;
+    font-size: 13px;
+    padding-right: 14px;
+}
+.nav-right a{
+    margin-left: 15px;
+    padding-top: 5px;
+    opacity: 0.85;
+}
+.signin{
+    color: #ffff;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    background: #4387fd;
+    margin-left: 10px;
+    outline: none;
+}
+.main{
+    text-align: center;
+    padding: 10%;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchbar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    width: 600px;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+}
+.searchbutton{
+    font-size: 14px;
+    height: 36px;
+    min-width: 54px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: none;
+}
+footer{
+    font-size: 14px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.foot-left{
+    float: left;
+    margin-left: 20px;
+    padding-bottom: 0;
+}
+.foot-left a{
+    margin-left: 10px;
+    color: #5f6368;
+}
+.foot-right{
+    float:right;
+    margin-right: 20px;
+    padding-bottom: 0;
+}
+.foot-right a{
+    margin-left: 10px;
+    color: #5f6368;
+}
